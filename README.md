@@ -7,7 +7,22 @@ SwaggerViewer is standalone viewer of documents from a Swagger-compliant API.
 * security sensitive.
 * support iOS document picker.
 
-more information of Swagger: 
+![iphone](https://raw.githubusercontent.com/itok/SwaggerViewer/images/images/iphone.png)
+
+### About Swagger
 
 * https://github.com/swagger-api/swagger-ui
 * https://swagger.io
+
+### Requirement
+
+* Xcode 9.2 and later
+* iOS 11 and later
+
+### AppStore
+
+* https://itunes.apple.com/app/id1355261042
+
+### License
+
+* MIT license
