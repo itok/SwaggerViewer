@@ -57,7 +57,11 @@ class ViewController: UIViewController {
 		
 		server.delegate = self
 		server.addGETHandler(forBasePath: "/", directoryPath: rootDirectory, indexFilename: nil, cacheAge: 3600, allowRangeRequests: true)
-		server.start()
+		do {
+			try server.start(options: [GCDWebServerOption_BindToLocalhost: true])
+		} catch let e {
+			print("\(e)")
+		}
 	}
 
 	func clear() {
